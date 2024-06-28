@@ -22,7 +22,7 @@ This User Management System is built using the MERN stack (MongoDB, Express.js, 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/user-management-system.git
+   git clone https://github.com/chathuwa-whiz/mern-user-management-system.git
    cd user-management-system
    ```
 
@@ -38,7 +38,7 @@ This User Management System is built using the MERN stack (MongoDB, Express.js, 
    npm install
    ```
 
-4. **Set up environment variables:**
+4. **Set up environment variables: (optional)**
    Create a `.env` file in the `server` directory with the following variables:
    ```plaintext
    MONGO_URI=your_mongodb_uri
@@ -48,7 +48,7 @@ This User Management System is built using the MERN stack (MongoDB, Express.js, 
 5. **Start the development server:**
    - In the `server` directory:
      ```bash
-     npm run dev
+     npm start
      ```
    - In the `client` directory:
      ```bash
